@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>硬貨学習用ページ作成ツール</title>
+  <link rel="stylesheet" href="editor-style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>硬貨学習用A4印刷ページ作成</h1>
+      <p>値段と硬貨の組み合わせを選択してカスタムページを作成</p>
+    </header>
+
+    <main>
+      <section class="form-section">
+        <div id="amounts-container">
+          <!-- 値段ブロックがここに追加される -->
+        </div>
+
+        <div class="button-group">
+          <button id="add-amount-btn" class="btn btn-primary">値段を追加</button>
+        </div>
+      </section>
+
+      <section class="action-section">
+        <button id="display-btn" class="btn btn-success">表示</button>
+      </section>
+
+      <section class="samples-section">
+        <h3>サンプルページ</h3>
+        <div class="samples-grid">
+          <a href="sample-5.html" class="btn btn-secondary">5円</a>
+          <a href="sample-10.html" class="btn btn-secondary">10円</a>
+          <a href="sample-50.html" class="btn btn-secondary">50円</a>
+          <a href="sample-100.html" class="btn btn-secondary">100円</a>
+          <a href="sample-500.html" class="btn btn-secondary">500円</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
