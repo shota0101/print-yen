@@ -9,11 +9,18 @@
   box-sizing: border-box;
 }
 
+html {
+  color-scheme: light;
+  background-color: #ffffff;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   width: 186mm;
   margin: 0 auto;
   padding: 0;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .page {
@@ -21,6 +28,7 @@ body {
   min-height: 273mm;
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
 }
 
 .coin-section {
